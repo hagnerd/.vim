@@ -1,0 +1,5 @@
+" Javascripty Type Stuff - JS Syntax, and indent settings, along with JSX Support and maybe other
+
+Plug 'pangloss/vim-javascript'
+
+" vim:ft=vim

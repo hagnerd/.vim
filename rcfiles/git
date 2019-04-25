@@ -1,0 +1,6 @@
+" Git
+
+autocmd BufEnter PULLREQ_EDITMSG setlocal filetype=gitcommit
+autocmd BufRead,BufNewFile git/config set filetype=gitconfig
+
+" vim:ft=vim

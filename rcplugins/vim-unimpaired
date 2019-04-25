@@ -1,0 +1,8 @@
+" Another bitchin' plugin from the Vim God tpope
+
+Plug 'tpope/vim-unimpaired'
+
+" [e swaps the line up
+" ]e swaps the line down
+
+" vim:ft=vim 

@@ -1,0 +1,10 @@
+" Conflicted - Enhancements build on fugitive to handle git conflicts
+
+Plug 'christoomey/vim-conflicted'
+
+" optionally add Conflicted info to statusline
+" set stl+=%{ConflictedVersion()}
+
+" more options available at github.com/christoomey/vim-conflicted
+
+" vim:ft=vim

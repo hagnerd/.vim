@@ -1,0 +1,12 @@
+" Emmet - Generate HTML markup from css-like selector strings
+
+Plug 'mattn/emmet-vim'
+
+let g:user_emmet_leader_key = '<C-e>'
+let g:user_emmet_settings = {
+  \ 'javascript.jsx': {
+    \ 'extends': 'jsx'
+    \ },
+  \ }
+
+" vim:ft=vim

@@ -1,0 +1,7 @@
+" Sort motion - sort based on motion or text object
+
+Plug 'christoomey/vim-sort-motion'
+
+" Can be used to sort import/require statements, arrays, etc.
+
+" vim:ft=vim

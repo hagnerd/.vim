@@ -1,0 +1,5 @@
+" Vim mkdir - automatically make intermediate directions if needed just like mkdir -p
+
+Plug 'pbrisbin/vim-mkdir'
+
+" vim:ft=vim

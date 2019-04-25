@@ -1,0 +1,5 @@
+" Abolish - Coerce strings to different cases, and subvert (subsitute) intelligtently
+
+Plug 'tpope/vim-abolish'
+
+" vim:ft=vim

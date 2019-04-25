@@ -1,0 +1,5 @@
+" Styled Components - Syntax highlighting for styled components, and a bunch of other css-in-js libraries
+
+Plug 'styled-components/vim-styled-components', {'branch': 'main'}
+
+" vim:ft=vim

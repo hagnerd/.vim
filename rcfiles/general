@@ -1,0 +1,47 @@
+" General Vim Settings
+
+filetype plugin indent on
+
+set backspace=2 " Backspace deletes like msot programs in insert mode
+set nobackup " ?
+set nowritebackup " ?
+set ruler " show the cursor position at all times
+set showcmd " display incomplete commands
+set laststatus=2 " Always display the status line
+set autowrite " Automatically :write before running commands
+
+" Softtabs, 2 spaces
+set tabstop=2
+set shiftwidth=2
+set shiftround
+set expandtab
+
+" Use one space, not two, after punctuation
+set nojoinspaces
+
+" Always keep gutter visible
+set signcolumn=yes
+
+" Display relative line numbers, with absolute line number for current line
+set number
+set numberwidth=5
+set relativenumber
+
+" When the type of shell script is /bin/sh, assume a POSIX-compatible shell
+" for syntax highlighting purposes
+let g:is_posix = 1
+
+" Always use vertical diffs
+set diffopt+=vertical
+
+set shortmess+=c
+
+" Better Movement Between Panes "
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
+
+map <leader>l :ALEFix<CR>
+
+" vim:ft=vim

@@ -1,0 +1,8 @@
+" Plugins/setup for RUST
+Plug 'rust-lang/rust.vim', { 'for': 'rust' }
+Plug 'racer-rust/vim-racer'
+
+let g:autofmt_autosave = 1
+
+" vim:ft=vim
+

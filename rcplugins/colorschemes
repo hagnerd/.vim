@@ -1,0 +1,26 @@
+" Colorschemes 
+
+Plug 'arcticicestudio/nord-vim'
+Plug 'cocopon/iceberg.vim'
+Plug 'Badacadabra/vim-archery'
+Plug 'whatyouhide/vim-gotham'
+Plug 'mhartington/oceanic-next'
+Plug 'morhetz/gruvbox'
+Plug 'haishanh/night-owl.vim'
+Plug 'connorholyday/vim-snazzy'
+Plug 'dracula/vim'
+Plug 'NLKNguyen/papercolor-theme'
+Plug 'junegunn/seoul256.vim'
+Plug 'rakr/vim-one'
+Plug 'rakr/vim-two-firewatch'
+Plug 'endel/vim-github-colorscheme'
+Plug 'zefei/cake16'
+Plug 'rakr/vim-colors-rakr'
+Plug 'mswift42/vim-themes'
+" Plug 'TroyFletcher/vim-colors-synthwave'
+Plug 'exitface/synthwave.vim'
+Plug 'Nequo/vim-allomancer'
+
+
+" vim:ft=vim
+

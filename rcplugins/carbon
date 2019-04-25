@@ -1,0 +1,6 @@
+" (n)vim plugin for carbon.now.sh support highlight text, and run
+" :CarbonNowSh to have it open the code in carbon
+
+Plug 'kristijanhusak/vim-carbon-now-sh'
+
+" vim:ft=vim

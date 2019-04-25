@@ -1,0 +1,16 @@
+" Prettier - JavaScript auto-formatting tool
+
+Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'markdown'] }
+
+" print semicolons
+let g:prettier#config#semi = 'false'
+
+" put > on the last line instead of new line yuck
+let g:prettier#config#jsx_bracket_same_line = 'false'
+
+" print spaces between brackets
+let g:prettier#config#bracket_spacing = 'true'
+
+" vim:ft=vim

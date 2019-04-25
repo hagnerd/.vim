@@ -1,0 +1,7 @@
+" Ripgrep - A better grep, written in rust
+
+Plug 'jremmen/vim-ripgrep'
+
+nmap <C-g> :Rg<CR>
+
+" vim:ft=vim
