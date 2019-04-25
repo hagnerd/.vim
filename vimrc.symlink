@@ -1,0 +1,35 @@
+"===================================================================================================================================================
+" Author: Matt Hagner
+" Source: https://github.com/hagnerd/.vim
+"---------------------------------------------------------------------------------------------------------------------------------------------------
+
+set nocompatible
+
+let mapleader = "\<Space>"
+
+function! s:SourceConfigFilesIn(directory)
+  let directory_splat = '~/.vim/' . a:directory . '/*'
+  for config_file in split(glob(directory_splat), '\n')
+    if filereadable(config_file)
+      execute 'source' config_file
+    endif
+  endfor
+endfunction
+
+if empty(glob('~/.vim/autoload/plug.vim'))
+	silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+	        \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+	autocmd VimEnter * PlugInstall --sync | source ~/.vimrc
+endif
+
+" ------------------------
+" CALL CONFIG FOLDERS HERE
+
+call plug#begin('~/.vim/bundle')
+call s:SourceConfigFilesIn('rcplugins')
+call plug#end()
+
+call s:SourceConfigFilesIn('rcfiles')
+
+" SHOULD BE END OF VIMRC HERE
+"-----------------------------
