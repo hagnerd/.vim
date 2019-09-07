@@ -1,0 +1,1 @@
+Plug 'slashmili/alchemist.vim'

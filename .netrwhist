@@ -1,10 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/Users/matthagner/.vim/rcfiles'
-let g:netrw_dirhist_2='/Users/matthagner/.vim/rcfiles/test'
-let g:netrw_dirhist_3='/Users/matthagner/.vim/rcfiles'
-let g:netrw_dirhist_4='/Users/matthagner/.vim/rcfiles/test'
-let g:netrw_dirhist_5='/Users/matthagner/.vim/rcfiles'
-let g:netrw_dirhist_6='/Users/matthagner/.vim/rcfiles/test'
-let g:netrw_dirhist_7='/Users/matthagner/.vim/rcfiles'
-let g:netrw_dirhist_8='/Users/matthagner/.vim/rcfiles/test'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/matthewhagner/code/playground/guten-tk-2/wp-content/plugins/userform/src'
+let g:netrw_dirhist_2='/Users/matthewhagner/code/playground/guten-tk-2/wp-content/plugins/userform'
+let g:netrw_dirhist_3='/Users/matthewhagner/code/playground/guten-tk-2/wp-content/plugins/userform/src'
+let g:netrw_dirhist_4='/Users/matthewhagner/code/playground/guten-tk-2/wp-content/plugins/userform/src/components'
+let g:netrw_dirhist_5='/Users/matthewhagner/code/playground/guten-tk-2/wp-content/plugins/userform'

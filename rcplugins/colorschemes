@@ -20,7 +20,14 @@ Plug 'mswift42/vim-themes'
 " Plug 'TroyFletcher/vim-colors-synthwave'
 Plug 'exitface/synthwave.vim'
 Plug 'Nequo/vim-allomancer'
-
+Plug 'ayu-theme/ayu-vim'
+Plug 'rakr/vim-colors-rakr'
+Plug 'drewtempelmeyer/palenight.vim'
+Plug 'archseer/colibri.vim'
+Plug 'hzchirs/vim-material'
+Plug 'ayu-theme/ayu-vim'
+Plug 'fenetikm/falcon'
+Plug 'trevordmiller/nova-vim'
 
 " vim:ft=vim
 
