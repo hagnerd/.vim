@@ -14,4 +14,8 @@ inoremap <silent><expr> <TAB>
 " Close preview window when completion is done.
 autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
 
+let g:LanguageClient_serverCommands = {
+      \ 'reason': ['~/code/language-servers/reason-language-server.exe']
+      \}
+
 " vim:ft=vim

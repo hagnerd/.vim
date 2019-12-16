@@ -2,7 +2,7 @@
 
 Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
-  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'markdown', 'json', 'vue', 'graphql', 'html', 'typescript.tsx'] }
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'markdown', 'json', 'vue', 'graphql', 'html', 'typescript.tsx', 'php'] }
 
 " print semicolons
 let g:prettier#config#semi = 'false'

@@ -46,4 +46,6 @@ nnoremap ^ 0
 " Switch between the last two files
 nnoremap <leader><leader> <c-^>
 
+nnoremap <leader>fb :Buffers<CR>
+
 " vim:ft=vim
