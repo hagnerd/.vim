@@ -1,6 +1,6 @@
 " ALE - Asynchronous linting engine, checks files as you work
 
-Plug 'w0rp/ale'
+Plug 'dense-analysis/ale'
 
 " let g:ale_reason_ols_executable = 'ocaml-language-server'
 " let g:ale_reasonml_refmt_executable = 'refmt'
