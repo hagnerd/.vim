@@ -11,10 +11,38 @@ nmap <leader>dw :<C-u>DeniteCursorWord grep:. -mode=normal<CR>
 
 " }}
 
-" {{ Coc.nvim
-nmap <silent> <leader>gd <Plug>(coc-definition)
-nmap <silent> <leader>gr <Plug>(coc-references)
-nmap <silent> <leader>gi <Plug>(coc-implementation)
+" {{ coc.nvim
+" nmap <silent> <leader>gd <Plug>(coc-definition)
+nmap <silent> <leader>cgd <Plug>(coc-definition)
+nmap <leader>cgt :call CocAction('jumpDefinition', 'drop tab')
+
+" Use K to show documentation in preview window
+nnoremap <silent> K :call <SID>show_documentation()<CR>
+
+function! s:show_documentation()
+  if (index(['vim','help'], &filetype) >= 0)
+    execute 'h '.expand('<cword>')
+  else
+    call CocAction('doHover')
+  endif
+endfunction
+
+" Use <c-space> to trigger completion.
+inoremap <silent><expr> <c-space> coc#refresh()
+
+" Use <cr> to confirm completion, `<C-g>u` means break undo chain at current position.
+" Coc only does snippet and additional edit on confirm.
+" inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+" Or use `complete_info` if your vim support it, like:
+" inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<CR>"
+
+" }}
+
+" {{ GIT 
+nnoremap <leader>gis :Gstatus<CR>
+nnoremap <leader>gid :Gdiffsplit<CR>
+nnoremap <leader>gic :Gcommit<CR>
+nmap <leader>gia :!git add %<CR>
 
 " }}
 
