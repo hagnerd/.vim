@@ -1,5 +1,6 @@
 " {{ General
 nmap <leader>ad :ALEDetail<CR>
+nmap <leader>w :w<CR>
 " }}
 
 " {{ DENITE SHORTCUTS 

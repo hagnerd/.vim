@@ -3,9 +3,9 @@
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
-let g:fzf_files_options = '--reverse --preview "(bat {}) 2> /dev/null | head -'.&lines.'"'
+let g:fzf_files_options = '--reverse --preview "(bat --color=always {}) 2> /dev/null | head -'.&lines.'"'
 
-nnoremap <leader>fo :Files<cr>
+nnoremap <leader>o :Files<cr>
 " uses $FZF_DEFAULT_COMMAND set in zshrc
 
 " check christoomey/dotfiles if something is funky and not working

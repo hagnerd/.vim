@@ -13,4 +13,6 @@ let g:prettier#config#jsx_bracket_same_line = 'false'
 " print spaces between brackets
 let g:prettier#config#bracket_spacing = 'true'
 
+nmap <leader>f :PrettierAsync<CR>
+
 " vim:ft=vim
