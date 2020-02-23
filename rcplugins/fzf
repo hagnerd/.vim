@@ -5,7 +5,7 @@ Plug 'junegunn/fzf.vim'
 
 let g:fzf_files_options = '--reverse --preview "(bat --color=always {}) 2> /dev/null | head -'.&lines.'"'
 
-nnoremap <leader>o :Files<cr>
+nnoremap <leader>fo :Files<cr>
 " uses $FZF_DEFAULT_COMMAND set in zshrc
 
 " check christoomey/dotfiles if something is funky and not working
