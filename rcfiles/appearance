@@ -5,10 +5,6 @@
 " < Colorscheme / Syntax  >
 syntax enable
 
-" if(has("termguicolors"))
-"   set termguicolors
-" endif
-
 if &term == "screen"
   set t_Co=256
 endif
@@ -16,7 +12,6 @@ endif
 " < Column Visualization > "
 " Make it obvious where 80 characters is
 set textwidth=80
-set colorcolumn=+1
 
 " < Window / Split > "
 " Open new split panes to the right, and bottom
@@ -26,16 +21,7 @@ set splitright
 " Ignore whitespace only changes in diff
 set diffopt+=iwhite
 
-" let ayucolor="light"
-
-" let g:nord_italic=1
-" let g:nord_underline=1
-" let g:nord_italic_comments=1
-" let g:nord_comment_brightness=15 
-" let g:nord_cursor_line_number_background=1
 colorscheme nord
-" colorscheme ayu 
-" colorscheme falcon
 
 set noshowmode
 
