@@ -28,6 +28,7 @@ Plug 'hzchirs/vim-material'
 Plug 'ayu-theme/ayu-vim'
 Plug 'fenetikm/falcon'
 Plug 'trevordmiller/nova-vim'
+Plug 'mswift42/vim-themes'
 
 " vim:ft=vim
 
