@@ -14,7 +14,7 @@ let g:ale_fixers = {
   \ }
 
 
-let g:ale_fix_on_save = 1
+let g:ale_fix_on_save = 0
 
 nmap <silent> [r <Plug>(ale_previous_wrap)
 nmap <silent> ]r <Plug>(ale_next_wrap)
