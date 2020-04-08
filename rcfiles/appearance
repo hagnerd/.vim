@@ -22,7 +22,7 @@ set splitright
 set diffopt+=iwhite
 
 " let g:gruvbox_italic=1
-colorscheme night-owl
+colorscheme palenight 
 
 set noshowmode
 
