@@ -8,11 +8,13 @@ let g:ale_linters = {
 
 let g:ale_fixers = {
   \ 'javascript': ['prettier', 'eslint'],
+  \ 'typescriptreact': ['prettier', 'eslint'],
+  \ 'typescript': ['prettier', 'eslint'],
   \ 'rust': ['rustfmt'],
   \ }
 
 
-let g:ale_fix_on_save = 1
+let g:ale_fix_on_save = 0
 
 nmap <silent> [r <Plug>(ale_previous_wrap)
 nmap <silent> ]r <Plug>(ale_next_wrap)
