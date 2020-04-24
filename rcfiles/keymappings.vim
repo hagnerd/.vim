@@ -18,7 +18,7 @@ nmap <silent> <leader>cgd <Plug>(coc-definition)
 nmap <leader>cgt :call CocAction('jumpDefinition', 'drop tab')
 
 " Use K to show documentation in preview window
-nnoremap <silent> K :call <SID>show_documentation()<CR>
+nnoremap <silent> <leader>K :call <SID>show_documentation()<CR>
 
 function! s:show_documentation()
   if (index(['vim','help'], &filetype) >= 0)
